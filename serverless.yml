@@ -10,8 +10,7 @@ provider:
     iam:
         role: arn:aws:iam::037294426912:role/LabRole
     environment:
-        API_KEY: ${env:API_KEY}
-
+        API_KEY: 75ddb78d30c87c19b30d170e3a83a8f5
 functions:
     scrape_table:
         handler: scrap_table.lambda_handler # Asegúrarse de que el nombre del archivo y la función coincidan
