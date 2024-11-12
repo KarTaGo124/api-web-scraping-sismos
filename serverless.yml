@@ -9,6 +9,8 @@ provider:
     timeout: 30
     iam:
         role: arn:aws:iam::037294426912:role/LabRole
+    environment:
+        API_KEY: ${env:API_KEY}
 
 functions:
     scrape_table:
